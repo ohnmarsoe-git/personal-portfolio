@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ohnmar Soe — CV — Project Manager</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: "Helvetica Neue", Arial, sans-serif; color: #1f2937;
+      font-size: 9.6pt; line-height: 1.42; background: #e5e7eb;
+    }
+    .page {
+      width: 210mm; height: 297mm; margin: 0 auto; background: #fff;
+      padding: 11mm 15mm 8mm; overflow: hidden;
+    }
+    @media screen { .page { margin: 20px auto; box-shadow: 0 4px 24px rgba(0,0,0,.15); } }
+    @media print { body { background: #fff; } .page { margin: 0; box-shadow: none; } }
+
+    header { border-bottom: 2px solid #0f766e; padding-bottom: 3.5mm; margin-bottom: 3.5mm; }
+    h1 { font-size: 22pt; margin: 0; letter-spacing: 0.04em; color: #0f172a; }
+    .headline { font-size: 11pt; font-weight: 600; color: #0f766e; margin: 1mm 0 2mm; }
+    .contact { font-size: 8.8pt; color: #374151; }
+    .contact a { color: #374151; text-decoration: none; }
+    .contact span + span::before { content: "  |  "; color: #9ca3af; white-space: pre; }
+
+    h2 {
+      font-size: 9.6pt; text-transform: uppercase; letter-spacing: 0.12em; color: #0f766e;
+      margin: 3.4mm 0 1.6mm; padding-bottom: 0.8mm; border-bottom: 1px solid #d1d5db;
+    }
+    p { margin: 0 0 1.5mm; }
+    ul { margin: 0; padding-left: 4.2mm; }
+    li { margin-bottom: 0.9mm; }
+    strong { color: #0f172a; }
+
+    .skills { display: grid; grid-template-columns: 34mm 1fr; row-gap: 1mm; column-gap: 3mm; }
+    .skills dt { font-weight: 700; color: #0f172a; }
+    .skills dd { margin: 0; }
+
+    .role { margin-bottom: 2.6mm; }
+    .role-head { display: flex; justify-content: space-between; align-items: baseline; }
+    .role-title { font-weight: 700; font-size: 10.2pt; color: #0f172a; }
+    .role-date { font-size: 8.8pt; color: #4b5563; white-space: nowrap; }
+    .role-org { font-style: italic; color: #4b5563; margin-bottom: 1mm; }
+
+    .project { margin: 1.6mm 0 0 0; padding-left: 3mm; border-left: 2px solid #ccebe7; }
+    .project-head { display: flex; justify-content: space-between; font-weight: 700; color: #0f172a; }
+    .project-head span { font-weight: 400; color: #4b5563; font-size: 8.8pt; }
+
+    .three-col { display: grid; grid-template-columns: 1.15fr 1.15fr 0.8fr; gap: 5mm; }
+    .three-col p { font-size: 8.8pt; line-height: 1.35; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>OHNMAR SOE</h1>
+      <div class="headline">Project Manager · Technical Lead · ERP (Odoo) &amp; Software Delivery</div>
+      <div class="contact">
+        <span>Yangon, Myanmar</span>
+        <span>+95 9 425 343 958</span>
+        <span><a href="mailto:ohnmarsoe.ss@gmail.com">ohnmarsoe.ss@gmail.com</a></span>
+        <span><a href="https://www.linkedin.com/in/ohnmar-soe-79834357">linkedin.com/in/ohnmar-soe-79834357</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Project Manager and Technical Lead with <strong>10+ years in software delivery</strong>, including
+        <strong>2+ years leading Odoo ERP implementations</strong> and enterprise mobile projects. Manages the full SDLC,
+        from requirements discovery to UAT sign-off and production go-live, for multiple client projects at once.
+        Combines a hands-on engineering background with Agile/Scrum delivery, stakeholder management and change control.
+        Track record: <strong>100% on-time release</strong>, <strong>30% faster change-request turnaround</strong>,
+        and a <strong>20% gain in team delivery efficiency</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Core Competencies</h2>
+      <dl class="skills">
+        <dt>Project Delivery</dt>
+        <dd>Agile / Scrum · Full SDLC · Planning &amp; Scheduling · Risk &amp; Issue Management · Change Management · UAT &amp; Go-live</dd>
+        <dt>Business &amp; People</dt>
+        <dd>Stakeholder Management · Requirements Analysis · Business Process Mapping · Team Leadership (5–10) · Mentoring &amp; Training</dd>
+        <dt>ERP &amp; Technical</dt>
+        <dd>Odoo ERP (Inventory, Purchase, Accounting) · Ionic Mobile · API Integration · Docker · CI/CD · Code Review</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <div class="role">
+        <div class="role-head">
+          <span class="role-title">Senior Consultant / Technical Lead / Project Manager</span>
+          <span class="role-date">2024 – Present</span>
+        </div>
+        <div class="role-org">Blue Stone Solutions Co., Ltd. · Yangon</div>
+        <ul>
+          <li>Manage ERP and mobile client projects in parallel, owning scope, schedule, risks and stakeholder communication from kickoff to go-live.</li>
+          <li>Lead teams of <strong>5–10 developers</strong>, improving delivery efficiency by <strong>20%</strong>; designed training programmes for full-stack and Odoo developers.</li>
+        </ul>
+
+        <div class="project">
+          <div class="project-head">Senior Consultant / Technical Lead — Odoo 19 ERP, Korean Manufacturer <span>2026 – Present</span></div>
+          <ul>
+            <li>Lead the development team delivering <strong>9 custom Odoo modules</strong> (CRM, sales goals, purchase, manufacturing, quality, CS service, customs) with Windchill PLM and Korea Customs UNI-PASS integrations.</li>
+            <li>Turn <strong>600+ requirements</strong> into functional designs, change records and test guides; track <strong>250+ issues</strong> to closure with the Korea-based client and run regression tests before releases.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <div class="project-head">Project Manager — Dai-ichi Insurance Mobile App <span>2025 – 2026</span></div>
+          <ul>
+            <li>Delivered a cross-platform customer mobile app (Ionic) for an insurance client with a <strong>100% on-time release</strong>.</li>
+            <li>Introduced a structured change-request process and stakeholder cadence, which <strong>cut turnaround time by 30%</strong>.</li>
+            <li>Oversaw the full SDLC: requirements, sprint delivery, API integration, UAT and production deployment.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <div class="project-head">Project Manager — GLPI Odoo ERP Implementation <span>2024</span></div>
+          <ul>
+            <li>Implemented an integrated Odoo ERP across <strong>inventory, purchase and accounting</strong>, mapping client business processes to the system.</li>
+            <li>Delivered a custom cost module that <strong>improved reporting accuracy by 25%</strong>.</li>
+            <li>Turned unclear, changing requirements into an agreed scope through workshops and achieved <strong>UAT sign-off</strong>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="role-head">
+          <span class="role-title">Technical Manager</span>
+          <span class="role-date">2018 – 2024</span>
+        </div>
+        <div class="role-org">AcePlus Solutions · Yangon</div>
+        <ul>
+          <li>Led the software development team and delivered client projects; <strong>improved system performance by 30%</strong>.</li>
+          <li>Established code review practices and mentored developers, raising code quality and team capability.</li>        </ul>
+      </div>
+    </section>
+
+    <div class="three-col">
+      <section>
+        <h2>Education</h2>
+        <p><strong>B.C.Sc (Hons)</strong><br />University of Computer Studies, Myanmar</p>
+        <p><strong>Diploma in MS .NET Programming</strong><br />IMCEITS · 2008 – 2009 · Grade B+</p>
+      </section>
+      <section>
+        <h2>Certifications</h2>
+        <p><strong>Project Management Principles</strong><br />Myanmar Project Management Center · 2020</p>
+        <p><strong>Essentials of IT Project Management</strong><br />Yangon-MCIA · 2018</p>
+      </section>
+      <section>
+        <h2>Languages</h2>
+        <p>Burmese (Native)<br />English (Professional working)<br />Japanese (JLPT N4)</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
